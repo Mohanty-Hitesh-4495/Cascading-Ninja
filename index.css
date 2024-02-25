@@ -1,0 +1,49 @@
+/* universal selector */
+*{
+    color: blue;
+}
+
+ 
+/* element selector */
+h1{
+    color:#0b9b01;
+    text-align: center;
+    text-decoration: underline;
+}
+button{
+    color:black;
+    background-color: chocolate;
+}
+
+body{
+    background-color: #ffff00;
+}
+
+/* id selector */
+#headingone{
+    color: black;
+} 
+#headingtwo{
+    text-decoration: line-through;
+}
+#headingthree{
+    text-decoration: black dotted underline ;
+}
+#headingfour{
+    color: darkmagenta;
+    /* text-decoration: overline; */
+    text-decoration: wavy underline overline;
+}
+#headingfive{
+    text-decoration: underline overline black;
+}
+
+/* Class selector */
+.myclass{
+    color: rgb(6, 94, 46);
+    text-align: justify;
+}
+
+a{
+    text-decoration: none;
+}
